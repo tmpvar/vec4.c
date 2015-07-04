@@ -1,4 +1,8 @@
-module.exports = set
+#ifndef __vec4_set__
+#define __vec4_set__
+
+#include "type.h"
+
 
 /**
  * Set the components of a vec4 to the given values
@@ -10,10 +14,12 @@ module.exports = set
  * @param {Number} w W component
  * @returns {vec4} out
  */
-function set (out, x, y, z, w) {
-  out[0] = x
-  out[1] = y
-  out[2] = z
-  out[3] = w
-  return out
+vec4 vec4_set (vec4 out, float x, float y, float z, float w) {
+  out[0] = x;
+  out[1] = y;
+  out[2] = z;
+  out[3] = w;
+  return out;
 }
+
+#endif

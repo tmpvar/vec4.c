@@ -51,7 +51,7 @@ var scale = require('gl-vec4/scale')
   - [transformMat4()](#transformmat4outvec4-avec4-mmat4)
   - [transformQuat()](#transformquatoutvec4-avec4-qquat)
 
-## add(out:vec4, a:vec4, b:vec4)
+## add(vec4 out:vec4, a:vec4, b:vec4)
 
   Adds two vec4's
 
@@ -59,7 +59,7 @@ var scale = require('gl-vec4/scale')
 
   Creates a new vec4 initialized with values from an existing vector
 
-## copy(out:vec4, a:vec4)
+## copy(vec4 out:vec4, a:vec4)
 
   Copy the values from one vec4 to another
 
@@ -71,7 +71,7 @@ var scale = require('gl-vec4/scale')
 
   Calculates the euclidian distance between two vec4's
 
-## divide(out:vec4, a:vec4, b:vec4)
+## divide(vec4 out:vec4, a:vec4, b:vec4)
 
   Divides two vec4's
 
@@ -83,7 +83,7 @@ var scale = require('gl-vec4/scale')
 
   Creates a new vec4 initialized with the given values
 
-## inverse(out:vec4, a:vec4)
+## inverse(vec4 out:vec4, a:vec4)
 
   Returns the inverse of the components of a vec4
 
@@ -91,43 +91,43 @@ var scale = require('gl-vec4/scale')
 
   Calculates the length of a vec4
 
-## lerp(out:vec4, a:vec4, b:vec4, t:Number)
+## lerp(vec4 out:vec4, a:vec4, b:vec4, t:Number)
 
   Performs a linear interpolation between two vec4's
 
-## max(out:vec4, a:vec4, b:vec4)
+## max(vec4 out:vec4, a:vec4, b:vec4)
 
   Returns the maximum of two vec4's
 
-## min(out:vec4, a:vec4, b:vec4)
+## min(vec4 out:vec4, a:vec4, b:vec4)
 
   Returns the minimum of two vec4's
 
-## multiply(out:vec4, a:vec4, b:vec4)
+## multiply(vec4 out:vec4, a:vec4, b:vec4)
 
   Multiplies two vec4's
 
-## negate(out:vec4, a:vec4)
+## negate(vec4 out:vec4, a:vec4)
 
   Negates the components of a vec4
 
-## normalize(out:vec4, a:vec4)
+## normalize(vec4 out:vec4, a:vec4)
 
   Normalize a vec4
 
-## random(out:vec4, [scale]:Number)
+## random(vec4 out:vec4, [scale]:Number)
 
   Generates a random vector with the given scale
 
-## scale(out:vec4, a:vec4, b:Number)
+## scale(vec4 out:vec4, a:vec4, b:Number)
 
   Scales a vec4 by a scalar number
 
-## scaleAndAdd(out:vec4, a:vec4, b:vec4, scale:Number)
+## scaleAndAdd(vec4 out:vec4, a:vec4, b:vec4, scale:Number)
 
   Adds two vec4's after scaling the second operand by a scalar value
 
-## set(out:vec4, x:Number, y:Number, z:Number, w:Number)
+## set(vec4 out:vec4, x:Number, y:Number, z:Number, w:Number)
 
   Set the components of a vec4 to the given values
 
@@ -139,15 +139,15 @@ var scale = require('gl-vec4/scale')
 
   Calculates the squared length of a vec4
 
-## subtract(out:vec4, a:vec4, b:vec4)
+## subtract(vec4 out:vec4, a:vec4, b:vec4)
 
   Subtracts vector b from vector a
 
-## transformMat4(out:vec4, a:vec4, m:mat4)
+## transformMat4(vec4 out:vec4, a:vec4, m:mat4)
 
   Transforms the vec4 with a mat4.
 
-## transformQuat(out:vec4, a:vec4, q:quat)
+## transformQuat(vec4 out:vec4, a:vec4, q:quat)
 
   Transforms the vec4 with a quat
 

@@ -42,4 +42,7 @@
   "bugs": {
     "url": "https://github.com/stackgl/gl-vec4/issues"
   }
-}
+
+#endif}
+
+#endif

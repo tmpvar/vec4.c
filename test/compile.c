@@ -23,7 +23,6 @@
 #include <vec4/subtract.h>
 #include <vec4/transformMat4.h>
 #include <vec4/transformQuat.h>
-#include <vec4/type.h>
 
 #include <stdio.h>
 #include <assert.h>

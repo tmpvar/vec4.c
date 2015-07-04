@@ -1,15 +1,12 @@
 {
-  "name": "gl-vec4",
-  "version": "1.0.1",
-  "description": "gl-matrix's vec4, split into smaller pieces",
+  "name": "vec4.c",
+  "version": "0.0.0",
+  "description": "gl-matrix's vec4, in c, split into smaller pieces",
   "main": "index.js",
   "scripts": {
-    "get-docs": "cat *.js | dox --api"
+    "test": "test/build.sh"
   },
   "dependencies": {},
-  "devDependencies": {
-    "dox": "git://github.com/hughsk/dox#api-context"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/stackgl/gl-vec4.git"

@@ -21,7 +21,7 @@ compiled with `gcc main.c -o main -Inode_modules/vec4.c/include`
 ### with cmake
 
 __CMakeLists.txt__
-```
+```cmake
 cmake_minimum_required(VERSION 3.2)
 project (vec4-test)
 file(GLOB CMAKE_INCLUDES "node_modules/*/CMakeLists.txt")

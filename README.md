@@ -10,7 +10,10 @@ __main.c__
 ```
 #include <vec4/create.h>
 
-vec4 v4 = vec4_create();
+int main() {
+  vec4 v4 = vec4_create();
+  return 0;
+}
 ```
 
 compiled with `gcc main.c -o main -Inode_modules/vec4.c/include`

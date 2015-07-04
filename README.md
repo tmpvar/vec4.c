@@ -7,7 +7,7 @@ package contains `glMatrix.vec4`.
 ## Usage
 
 __main.c__
-```
+```c
 #include <vec4/create.h>
 
 int main() {
